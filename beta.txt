@@ -1,0 +1,23 @@
+Beta: [Marcos Serrano] - Hora: [20:53]
+
+Configuraci¢n IP de Windows
+
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   Direcci¢n IPv6 . . . . . . . . . . : 2802:8010:620c:3c00:4516:18db:cdd0:bc04
+   Direcci¢n IPv6 temporal. . . . . . : 2802:8010:620c:3c00:2876:3a6d:44f0:6dce
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::492a:4676:f81c:7c60%9
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.1.39
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : fe80::a6a:aff:fef0:aed0%9
+                                       192.168.1.1
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::3ccf:47d3:bb9c:886b%3
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
