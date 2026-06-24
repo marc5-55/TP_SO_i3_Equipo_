@@ -36,3 +36,18 @@ git merge Fernandez
 Subió el resultado final a GitHub para que quede guardado en internet:
 
 git push origin main
+
+D- No. Cuando BETA hizo el merge en master, las ramas de BETA y GAMMA no se actualizaron solas. Para tener los cambios nuevos hay que actualizar la rama manualmente.
+
+E- No tuvimos problemas al hacer el merge, ya que Git pudo unir los cambios automáticamente.
+
+F- git fetch origin
+git checkout Serrano
+git status
+echo "ALFA: [Ailin Fernandez] - hora: [21:31]" > beta.txt
+ipconfig >> beta.txt
+git status
+git add .
+git status 
+git commit -m "GAMMA: Agrega sus datos de red en beta.txt"
+git push origin Serrano
