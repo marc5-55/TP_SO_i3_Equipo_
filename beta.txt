@@ -1,4 +1,4 @@
-Beta: [Marcos Serrano] - Hora: [20:53]
+ALFA: [Thiago Cobacho] - hora: [21:44]
 
 Configuraci¢n IP de Windows
 
@@ -6,50 +6,23 @@ Configuraci¢n IP de Windows
 Adaptador de Ethernet Ethernet:
 
    Sufijo DNS espec¡fico para la conexi¢n. . : 
-   Direcci¢n IPv6 . . . . . . . . . . : 2802:8010:620c:3c00:4516:18db:cdd0:bc04
-   Direcci¢n IPv6 temporal. . . . . . : 2802:8010:620c:3c00:2876:3a6d:44f0:6dce
-   V¡nculo: direcci¢n IPv6 local. . . : fe80::492a:4676:f81c:7c60%9
-   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.1.39
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::7bf4:8e00:8af:6024%10
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.1.7
    M scara de subred . . . . . . . . . . . . : 255.255.255.0
-   Puerta de enlace predeterminada . . . . . : fe80::a6a:aff:fef0:aed0%9
-                                       192.168.1.1
+   Puerta de enlace predeterminada . . . . . : 192.168.1.1
 
 Adaptador de Ethernet Ethernet 2:
 
    Sufijo DNS espec¡fico para la conexi¢n. . : 
-   V¡nculo: direcci¢n IPv6 local. . . : fe80::3ccf:47d3:bb9c:886b%3
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::a4f9:6b0f:d623:af72%8
    Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.56.1
    M scara de subred . . . . . . . . . . . . : 255.255.255.0
    Puerta de enlace predeterminada . . . . . : 
-GAMMA:[ ailin fernandez] - hora [21:31]
 
-Configuraci¢n IP de Windows
-
-
-Adaptador de Ethernet Ethernet:
-
-   Estado de los medios. . . . . . . . . . . : medios desconectados
-   Sufijo DNS espec¡fico para la conexi¢n. . : 
-
-Adaptador de Ethernet Ethernet 2:
-
-   Estado de los medios. . . . . . . . . . . : medios desconectados
-   Sufijo DNS espec¡fico para la conexi¢n. . : 
-
-Adaptador de LAN inal mbrica Conexi¢n de  rea local* 1:
-
-   Estado de los medios. . . . . . . . . . . : medios desconectados
-   Sufijo DNS espec¡fico para la conexi¢n. . : 
-
-Adaptador de LAN inal mbrica Conexi¢n de  rea local* 2:
-
-   Estado de los medios. . . . . . . . . . . : medios desconectados
-   Sufijo DNS espec¡fico para la conexi¢n. . : 
-
-Adaptador de LAN inal mbrica Wi-Fi:
+Adaptador de Ethernet vEthernet (Default Switch):
 
    Sufijo DNS espec¡fico para la conexi¢n. . : 
-   V¡nculo: direcci¢n IPv6 local. . . : fe80::9c49:1034:cd7d:88eb%4
-   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.88.8
-   M scara de subred . . . . . . . . . . . . : 255.255.255.0
-   Puerta de enlace predeterminada . . . . . : 192.168.88.254
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::c798:5d60:78b0:f6b9%19
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 172.22.224.1
+   M scara de subred . . . . . . . . . . . . : 255.255.240.0
+   Puerta de enlace predeterminada . . . . . : 
