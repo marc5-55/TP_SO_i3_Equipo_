@@ -51,3 +51,15 @@ git add .
 git status 
 git commit -m "GAMMA: Agrega sus datos de red en beta.txt"
 git push origin Serrano
+
+G- Como Gamma ya se había metido en la rama Serrano y había subido sus cosas a GitHub un ratito antes, si yo intentaba mandar mis cambios así de una, Git me iba a rebotar el push por no tener el archivo actualizado localmente. Así que para no armar lío con el historial y unificar todo bien, me vi obligado a traerme primero los cambios de mi compañero antes de meter mi parte. Los comandos que tuve que tirar en la terminal fueron:
+
+git fetch origin                      
+git checkout Serrano                  # Me paré en la rama de Beta
+git pull origin Serrano               
+echo "Alfa: [Thiago Cobacho] - Hora:" >> beta.txt  # Sumé mi nombre abajo del de los chicos
+ipconfig >> beta.txt                  
+git status                            
+git add .                             
+git commit -m "ALFA: Agrega sus datos de red en beta.txt" 
+git push origin Serrano               # Subí todo listo a la rama de GitHub
