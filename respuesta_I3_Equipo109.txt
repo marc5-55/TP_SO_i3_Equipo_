@@ -1,0 +1,38 @@
+Integrantes:
+Thiago Cobacho
+Ailin Fernandez
+Marcos Serrano
+
+respuesta beta
+A- El máster (o main) queda completito, unificado y con todo el trabajo del grupo al día. Si abrís la carpeta del proyecto en la compu, vas a encontrar esto:
+
+El archivo README.md que estaba de entrada.
+
+El archivo datos.txt con la información de los tres integrantes (Nombre, Apellido, IP y hora) escrita una abajo de la otra en renglones ordenados.
+
+Los tres archivos con la información del procesador de cada uno: CPUGamma.txt, CPUAlfa.txt y CPUBeta.txt.
+
+El archivo consolidado beta.txt que tiene los reportes de red de los tres sumados en un solo lugar (son 23 líneas de texto en total).
+
+B- Sí, de una. Como Beta hizo el merge (la fusión) para juntar las ramas en los puntos 5 y 9, y antes se acordó de tirar los comandos de actualización (fetch y pull) para bajarse a su compu lo que habían subido los chicos, tiene el historial completo guardado. Puede ver cada commit que hicieron Alfa y Gamma, y tiene los archivos finales impecables tanto en su computadora como en la página de GitHub.
+
+C- Para meter los cambios que hicieron en la primera parte dentro de la rama principal sin romper nada, Beta tuvo que tirar estos comandos en orden:
+
+Se pasó a la rama principal de su compu:
+
+git checkout main
+
+
+Se bajó lo último que había en GitHub por las dudas:
+
+git pull origin main
+
+
+Trajo todos los cambios de la rama de Gamma (donde escribieron todos):
+
+git merge Fernandez
+
+
+Subió el resultado final a GitHub para que quede guardado en internet:
+
+git push origin main
